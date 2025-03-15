@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:15.03.2025
+## Register Number:212223220113
+## Name:Susithra.B
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,58 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-
+Develop a Smart Railway Station Navigation System that provides real-time, interactive navigation assistance to passengers through a mobile app, digital kiosks, and voice guidance.
 
 ## Proposed Solution / Architecture Diagram
+![{2968F564-63C9-48EB-BB55-49F68A7AFB5E}](https://github.com/user-attachments/assets/26dfc2ee-f8bc-4635-8cd2-e605c1fc2874)
 
+## User Interface
+Mobile App (Android & iOS)
 
+Digital Kiosks with touch-screen navigation
+## Backend:
+Cloud-based real-time database
+
+AI/ML for predictive route suggestions
+
+GPS & indoor positioning system for real-time location tracking
+
+## Integration:
+Existing railway apps (IRCTC, UTS, etc.)
+
+Live station data for dynamic updates
+
+IoT sensors for crowd density estimation
 ## Use Cases
 
+![{DA9F9988-F990-47FD-9F8F-AA378259C2B1}](https://github.com/user-attachments/assets/ab44cdb3-a548-40f2-9d6c-eebc255c3271)
+
+First-time traveler assistance: Passengers unfamiliar with the station can easily find locations.
+
+Real-time navigation: Guides passengers to facilities using GPS and indoor mapping.
+
+Accessibility support: Voice guidance and easy-to-read interfaces for visually and physically impaired passengers.
+
+Live congestion updates: Displays least crowded paths and waiting areas.
+
+Platform change alerts: Provides real-time updates if train platforms are changed.
 
 ## Technology Stack
+Frontend: React Native (Mobile App), JavaScript (Digital Kiosk UI)
 
+Backend: Node.js, Firebase, PostgreSQL
+
+AI/ML: Python (for predictive analytics and congestion monitoring)
+
+Navigation Services: Google Maps API, OpenStreetMap, Indoor Navigation SDK
+
+Cloud Hosting: Google Cloud / AWS
 
 ## Dependencies
+Access to real-time railway station data.
 
+API integration with Indian Railways services.
+
+Deployment permissions for digital kiosks in stations.
+
+Compliance with government regulations on data privacy.
